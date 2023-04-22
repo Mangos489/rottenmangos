@@ -29,11 +29,21 @@
   animation: spin 20s linear infinite;
 }
 
-#cube > div > div {
-  animation: un-spin 20s linear infinite;
+#cube > div {
+  position: absolute;
+  transform-style: preserve-3d;
 }
 
-@keyframes un-spin {
+@keyframes spin {
+  from { transform: rotateX(-0.1turn) rotateY(0turn); }
+  to { transform: rotateX(-0.1turn) rotateY(1turn); }
+}
+
+#cube > div > div {
+  animation: unspin 20s linear infinite;
+}
+
+@keyframes unspin {
   from { transform: rotateY(0turn); }
   to { transform: rotateY(-1turn); }
 }
