@@ -8,4 +8,32 @@
              The domain name is above as the header</p>
         <p>heres a <a target="_blank" href="RottenMangos.xyz">link</a> to the website.-.</p
     </body>
+    <head>
+        <style>
+            #cube {
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 20s linear infinite;
+}
+
+#cube > div {
+  position: absolute;
+  transform-style: preserve-3d;
+}
+
+@keyframes spin {
+  from { transform: rotateX(-0.1turn) rotateY(0turn); }
+  to { transform: rotateX(-0.1turn) rotateY(1turn); }
+}
+        </style>
+    </head>
+    <body>
+        <div id="cube" style="width: 4em; height: 8em;">
+            <div style="transform: translate3d(0em, 0em, 2em)">A</div>
+            <div style="transform: translate3d(4em, 0em, 2em)">B</div>
+            …
+            <div style="transform: translate3d(0em, 4em, -2em)">G</div>
+            <div style="transform: translate3d(4em, 4em, -2em)">H</div>
+          </div>
+    </body>
 </html>
