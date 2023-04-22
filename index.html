@@ -2,9 +2,20 @@
 <html>
     <body>
         <style>
-        .center-text {
-            text-align: center;
-          }
+            .container {
+              position: relative;
+              height: 100vh; 
+            }
+        
+            .centered-element {
+              width: 200px;
+              height: 100px;
+              background-color: lightblue;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
         </style>
         <main> 
             <h1>RottenMangos.xyz</h1>
@@ -33,11 +44,9 @@
         </style>
     </head>
     <body>
-        <style>
-            .center-text {
-              text-align: center;
-            }
-          </style>
+        <div class="container">
+            <div class="centered-element">Centered Element</div>
+          </div>
         <section class="center-text">
         <div id="cube" style="width: 4em; height: 8em;">
             <div style="transform: translate3d(0em, 0em, 2em)">A</div>
