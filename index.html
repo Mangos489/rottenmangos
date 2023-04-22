@@ -29,14 +29,13 @@
   animation: spin 20s linear infinite;
 }
 
-#cube > div {
-  position: absolute;
-  transform-style: preserve-3d;
+#cube > div > div {
+  animation: un-spin 20s linear infinite;
 }
 
-@keyframes spin {
-  from { transform: rotateX(-0.1turn) rotateY(0turn); }
-  to { transform: rotateX(-0.1turn) rotateY(1turn); }
+@keyframes un-spin {
+  from { transform: rotateY(0turn); }
+  to { transform: rotateY(-1turn); }
 }
         </style>
     </head>
@@ -47,14 +46,14 @@
  
         <section class="center-text">
         <div id="cube" style="width: 4em; height: 8em;">
-            <div style="transform: translate3d(0em, 0em, 2em)">A</div>
-            <div style="transform: translate3d(4em, 0em, 2em)">B</div>
-            <div style="transform: translate3d(0em, 4em, 2em)">C</div>
-            <div style="transform: translate3d(4em, 4em, 2em)">D</div>
-            <div style="transform: translate3d(0em, 0em, -2em)">E</div>
-            <div style="transform: translate3d(4em, 0em, -2em)">F</div>
-            <div style="transform: translate3d(0em, 4em, -2em)">G</div>
-            <div style="transform: translate3d(4em, 4em, -2em)">H</div>
+            <div style="transform: translate3d(0em, 0em, 2em)"><div>A</div></div>
+            <div style="transform: translate3d(4em, 0em, 2em)"><div>B</div></div>
+            <div style="transform: translate3d(0em, 4em, 2em)"><div>C</div></div>
+            <div style="transform: translate3d(4em, 4em, 2em)"><div>D</div></div>
+            <div style="transform: translate3d(0em, 0em, -2em)"><div>E</div></div>
+            <div style="transform: translate3d(4em, 0em, -2em)"><div>F</div></div>
+            <div style="transform: translate3d(0em, 4em, -2em)"><div>G</div></div>
+            <div style="transform: translate3d(4em, 4em, -2em)"><div>H</div></div>
         </div>
         </div>
         </section>
