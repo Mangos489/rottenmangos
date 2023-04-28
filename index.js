@@ -1,3 +1,5 @@
+<html lang="en-US">
+</html>    
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
