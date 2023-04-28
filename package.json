@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ecruz22004/Ecruz22004.github.io/issues"
   },
-  "homepage": "https://github.com/Ecruz22004/Ecruz22004.github.io#readme"
+  "homepage": "https://github.com/Ecruz22004/Ecruz22004.github.io#readme",
+  "dependencies": {
+    "three": "^0.152.0"
+  }
 }
