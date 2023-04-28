@@ -1,5 +1,4 @@
-<html lang="en-US">
-</html>    
+document.documentElement.lang = 'en';
 import * as THREE from 'three';
 
 const scene = new THREE.Scene();
