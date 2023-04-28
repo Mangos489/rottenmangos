@@ -1,78 +1,26 @@
-<!DOCTYPE html>
-<html>
-    <body>
-        <style>
-            .container {
-              position: relative;
-              height: 100vh; 
-            }
-        
-            .centered-element {
-              width: 325px;
-              height: 100px;
-              background-color: rgb(255, 255, 255);
-              position: absolute;
-              top: 50%;
-              left: 50%;
-              transform: translate(-50%, -50%);
-            }
-        </style>
-        <main> 
-            <h1>RottenMangos.xyz</h1>
-        </main>
-    </body>
-    <head>
-        <style>
-            #cube {
-  position: relative;
-  transform-style: preserve-3d;
-  animation: spin 20s linear infinite;
+import * as THREE from 'three';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
+
+const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+const cube = new THREE.Mesh( geometry, material );
+scene.add( cube );
+
+camera.position.z = 5;
+
+function animate() {
+	requestAnimationFrame( animate );
+
+	cube.rotation.x += 0.01;
+	cube.rotation.y += 0.01;
+
+	renderer.render( scene, camera );
 }
 
-#cube > div {
-  position: absolute;
-  transform-style: preserve-3d;
-}
-
-@keyframes spin {
-  from { transform: rotateX(-0.1turn) rotateY(0turn); }
-  to { transform: rotateX(-0.1turn) rotateY(1turn); }
-}
-
-#cube > div > div {
-  animation: unspin 20s linear infinite;
-}
-
-@keyframes unspin {
-  from { transform: rotateY(0turn); }
-  to { transform: rotateY(-1turn); }
-}
-        </style>
-    </head>
-    <body>
-    <h1>
-        <div class="container">
-        <div class="centered-element">
- 
-        <section class="center-text">
-        <div id="cube" style="width: 4em; height: 8em;">
-            <div style="transform: translate3d(0em, 0em, 2em)"><div>R</div></div>
-            <div style="transform: translate3d(4em, 0em, 2em)"><div>N</div></div>
-            <div style="transform: translate3d(4em, 4em, 2em)"><div>A</div></div>
-            <div style="transform: translate3d(0em, 4em, 2em)"><div>M</div></div>
-            <div style="transform: translate3d(0em, 0em, -2em)"><div>O</div></div>
-            <div style="transform: translate3d(4em, 0em, -2em)"><div>T</div></div>
-            <div style="transform: translate3d(0em, 4em, -2em)"><div>G</div></div>
-            <div style="transform: translate3d(4em, 4em, -2em)"><div>O</div></div>
-        </div>
-        </div>
-        </section>
-    </h1>
-    <style>
-			body { margin: 0; }
-		</style>
-    <body>
-      <script type="module" src="/main.js"></script>
-    </body>
-    </body>
-</html>
+animate();
