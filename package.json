@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Ecruz22004/Ecruz22004.github.io#readme",
   "dependencies": {
     "three": "^0.152.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.3"
   }
 }
