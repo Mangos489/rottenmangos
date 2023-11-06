@@ -1,1 +1,31 @@
+body {
+    background-color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+  img {
+    width: 350px; 
+    height: 350px; 
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  p {
+    color: #333;
+  }
 
+  figure.centered {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  figcaption {
+    font-size: 50px;
+    text-align: center;
+  }
