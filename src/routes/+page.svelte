@@ -1,6 +1,7 @@
 <script>
 	import welcome from '$lib/BNA.jpg';
 	import welcome_fallback from '$lib/BNA.jpg';
+    import 'Style.css';
 </script>
 
 <svelte:head>
