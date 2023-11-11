@@ -1,6 +1,5 @@
 <script>
     import '$lib/Style.css';
-	let Redemption ='./Public/BNA.png'
 </script>
 
 
@@ -10,6 +9,3 @@
 </svelte:head>
 
 <svelte:body/>
-<body>
-		<img {Redemption} alt="Redemption" />
- </body>
