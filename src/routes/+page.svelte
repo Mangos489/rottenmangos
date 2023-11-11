@@ -1,6 +1,6 @@
 <script>
     import '$lib/Style.css';
-	let Redemption ='$Public/BNA.png'
+	let Redemption ='./Public/BNA.png'
 </script>
 
 
