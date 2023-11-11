@@ -9,7 +9,3 @@
 </svelte:head>
 
 <svelte:body/>
-<figure class="centered">
-	<img src="./Assets/images/BNA.jpg" alt="Heavenly figure">
-	<figcaption>Do Not Be Afraid</figcaption>
-</figure>
