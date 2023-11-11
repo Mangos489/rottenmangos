@@ -1,5 +1,6 @@
 <script>
     import '$lib/Style.css';
+	let Redemption ='./src/lib/BNA.png'
 </script>
 
 
@@ -12,7 +13,7 @@
 <body>
 	<figure>
 	<figure class="centered">
-		<img src="$lib/BNA.jpg" alt="Redemption" />
+		<img {Redemption} alt="Redemption" />
 		<figcaption>Do Not Be Afraid</figcaption>
 	 </figure>
  </body>
