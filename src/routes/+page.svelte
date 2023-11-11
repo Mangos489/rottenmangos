@@ -11,9 +11,5 @@
 
 <svelte:body/>
 <body>
-	<figure>
-	<figure class="centered">
 		<img {Redemption} alt="Redemption" />
-		<figcaption>Do Not Be Afraid</figcaption>
-	 </figure>
  </body>
