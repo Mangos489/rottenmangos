@@ -1,5 +1,6 @@
 <script>
     import '$lib/Style.css';
+	let redemption ='';
 </script>
 
 
@@ -9,3 +10,6 @@
 </svelte:head>
 
 <svelte:body/>
+<dev>
+	<img {redemption} alt="Savior"/>
+</dev>
