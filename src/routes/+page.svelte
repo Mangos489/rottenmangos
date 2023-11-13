@@ -1,15 +1,2 @@
-<script>
-    import '$lib/Style.css';
-	let redemption ='';
-</script>
-
-
-<svelte:head>
-	<title>RottenMangos</title>
-	<meta name="2nd page" content="Second Page" />
-</svelte:head>
-
-<svelte:body/>
-<dev>
-	<img {redemption} alt="Savior"/>
-</dev>
+<h1>Welcome to SvelteKit</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
