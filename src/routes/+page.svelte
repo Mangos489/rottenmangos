@@ -13,7 +13,7 @@
 </p>
 
 <img
-	src="./src/lib/BNA.jpg"
+	src="https://fastly.picsum.photos/id/251/800/400.jpg?hmac=y13CO5nUuKwgLH412DjCCVGCu0MoeZSX5F3wcwKnvHM"
 	alt="Random mountains from picsum.photos"
 	height="400"
 	width="800"
