@@ -1,3 +1,6 @@
+<svelte:head>
+	<title>How to deploy a SvelteKit website to GitHub pages</title>
+</svelte:head>
 <body>
     <h1>Be not afraid for I have saved you</h1>
     <h2>For I save all that believe and follow</h2>
