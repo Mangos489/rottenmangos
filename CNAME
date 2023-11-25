@@ -1,2 +1,1 @@
-paths: {
-            base: process.env.NODE_ENV === 'production' ? '/rottenmangos.xyz' : '',
+rottenmangos.xyz
