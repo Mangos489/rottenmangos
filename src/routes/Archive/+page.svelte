@@ -10,9 +10,7 @@
   ];
   </script>
   
-  <style>
-    /* Your styling goes here */
-  
+  <style>  
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -34,10 +32,15 @@
     .caption {
     text-align: center;
     margin-top: 8px;
-    color: white; /* Set the text color to white */
+    color: white; 
+  }
+   h1 {
+    text-align: center;
+    color: whitesmoke
   }
   </style>
   
+  <h1>Rotten Archive</h1>
   <div class="gallery">
     {#each images as { src, caption }, index (src)}
       <div>
