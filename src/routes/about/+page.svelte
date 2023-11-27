@@ -9,6 +9,7 @@
         margin-top: 11px;
         text-align: center
     }
+
 </style>
 <h1>Mangos</h1>
 <p>My name is Mangos. Im a part time student at Santa Monica College
