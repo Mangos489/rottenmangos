@@ -1,0 +1,11 @@
+import{s as o,n as s}from"../chunks/scheduler.e108d1fd.js";import{S as r,i as l,g as c,h as d,x as p,a as m,f as v}from"../chunks/index.4d21fe7b.js";const u=""+new URL("../assets/logo.5c5656c1.webp",import.meta.url).href;function g(i){let e,a=`<div class="containerorgin"><div class="containera"><div class="contentaa"><p class="title">(Website)</p> <p class="text">Websites are designed in a brief 15 min video call 
+                    to discuss goals and functionality. A quote is provided at the
+                     end for development and implementation.</p></div> <div class="contentab"><p class="title">(Database)</p> <p class="text">We design and build databases that empower your
+                     organization with efficient data management, secure data collection 
+                     and seamless integration with present applications.</p> <p class="filler">idk</p></div></div> <div class="containerb"><div class="contentba"><p class="title">(Maintinance)</p> <p class="text">If you require an extra set of hands to assist with 
+                    a project or application that fails to load assets, has slow render
+                    time, requires security checks or just assistance programming your
+                    project we have people ready to fulfil your needs at flat 
+                    hourly rates varying on your project&#39;s needs.</p></div> <div class="contentbb"><p class="title">(Integration)</p> <p class="text">We are able to integrate programs or services into exisiting websites or applications. This includes
+                    but is not limited to datatbases analytical tools and even artificial intelligence.
+                     Cost of service varies depending on the complexity and scale of integration.</p></div></div> <div class="containerthree"><p class="title">(Subscription)</p> <p class="text">insert subscription</p></div> <div class="containerimg"><img class="pic1" src="${u}" alt="Img"/></div></div>`;return{c(){e=c("body"),e.innerHTML=a},l(t){e=d(t,"BODY",{"data-svelte-h":!0}),p(e)!=="svelte-1j17j3r"&&(e.innerHTML=a)},m(t,n){m(t,e,n)},p:s,i:s,o:s,d(t){t&&v(e)}}}class h extends r{constructor(e){super(),l(this,e,null,g,o,{})}}export{h as component};
