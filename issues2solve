@@ -1,0 +1,58 @@
+Soooo....
+
++Check for issues at each 100 and make a setting up to 900.
+    (ISSUE FOUND) 
+    Header loads weird when loading up each 100.
+    Make media header settings scaling up to 700. Compartamentalize
+    this into another css file if possible and import it into the necessary svelte file. (WIP)
+
+
++This is only for the header since thats the thing that must be rendered consistently throughout the site. I may just
+compact every styling to the global style
+    (ADD ON)
+    Will be adding a styling folder where all css styles (in style elements within the header and page style) will be stored. Ill prolly look into making svelte componenets. Idk ill prolly have to think about it 
+
++add pages for the tools used by Rotten Mangos to build websites and business sites (WIP)
+
++add more text onto the footer (WIP)
+
++Were going to need to add styling for mobile devices on all mobile pages but atleast this time we have the extra css file.
+See if possible to import seperate @media (phone settings) rather than keeping all media settings in the same css file. This will help 
+organize and keep track of settings tbh and will help avoid clutter. 
+(SOLUTION)
+This works!!!
+Next do this for the stylings for the other 
+
++Will need to look into establishing a database to collect forms and applications in our career page
+the current plan is to outsource talent on projects that may require skills or talents that may not be available inhouse 
+or if anything we can just be the people that connect talent and needs together. Idk were gonna have to see tbh. 
+Not a bad idea to have people work on some aspects of the website for experience. Will prolly need to use docker to help share copies of 
+the database soon to be made for the website since i feel that may cause the most issues 
+
+Convert png to webp images all once deployment ready.
+
+
+
+
+
+
+DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE
+DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE
+DONE DONE DONE DONE DONE DONE DONE DONE DONE DONE
+
+-Add a secondary font compatible with insta browers and such (SOLVED) 
+-Adjust the styling of the site so it loads correctly on mobile sites (COMPLETED NEW ISSUE CREATED)
+-So the issue is the width issues arrise at 390+ width so just make a setting for that(COMPLETED)
+-380 and bellow it stays pretty stable (SUBSTAINED aka proved its true idk)
+-Plus i doubt theres screens smaller than 200 (COMPLETED)
+-So set the current media setting to apply to 389 and less (COMPLETED)
+-then make a second media setting that affects 390 and above. (COMPLETED)
+
+-(ISSUE) When width is less than 400 header is a lil too uncentered easy fix (SOLVED added a careers link cause fk dat shit.)
+    when width is more than 400 header is a bit out of order
+    | Possible fixes to try
+    +Try adjusting the margin from left (+) or right (-)
+    +Try adjusting the pading size
+    (TRY THIS ONE FIRST)
+   +Maybe adding a filler element that is non clickable could be the best solution
+    (TRY THIS ONE FIRST)

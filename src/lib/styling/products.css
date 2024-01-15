@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'bestchristmas';
+    src:
+      url('$lib/fonts/bc/bestchristmas.woff2') format('woff2'),
+      url('$lib/fonts/bc/bestchristmas.woff') format('woff');
+  }
+@font-face {
+    font-family: 'blackchancery';
+    src:
+      url('$lib/fonts/blkch/blkchcry.woff2') format('woff2'),
+      url('$lib/fonts/blkch/blkchcry.woff') format('woff'),
+}
+
+.containerorgin{
+    width: 100%;
+    height: 0 auto;
+    display: inline-block;
+}
+
+/* So for container one and two we will make it a flexbox
+for container three we will make a inline display centered center
+or we may just display img and sub in same container*/
+
+.containera{
+    display: flex;
+    width: 100%;
+    height: 0 auto;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -2%;
+}
+
+.contentaa{
+    width: 50%;
+    height: 0 auto;
+    flex: 1;
+    margin-left: 3%;
+    padding: 5%;
+}
+
+.contentab{
+    width: 50%;
+    height: 0 auto;
+    flex: 1;
+    margin-right: 3%;
+    padding: 5%;
+    margin-top: 1.5%;
+}
+
+.containerb{
+    display: flex;
+    width: 100%;
+    height: 0 auto;
+    justify-content: center;
+    align-items: center; 
+
+}
+.contentba{
+    width: 50%;
+    height: 0 auto;
+    flex: 1;
+    margin-left: 3%;
+    padding: 5%;
+}
+.contentbb{
+    width: 50%;
+    height: 0 auto;
+    flex: 1;
+    margin-right: 3%;
+    padding: 5%;
+    margin-top: -4%;
+}
+.containerthree{
+    display: flex;
+    width: 100%;
+    height: 0 auto;
+    justify-content: center;
+    align-items: center; 
+}
+.contentc{
+    width: 50%;
+    height: 0 auto;
+    flex: 1;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.containerimg{
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    margin-top: 20%;
+}
+.pic1{
+    width: 70%;
+	height: auto;
+	border-radius: 10px 10px 10px 10px;
+    margin-top: -5%;
+}
+.title{
+    font-family: 'bestchristmas';
+    font-size: 70px;
+    margin-bottom: -1%;
+}
+
+.text{
+    font-family: "blackchancery";
+    color: #ffffff;
+    font-size: 36px;
+}
+.filler{
+    color: #00000000;
+}
