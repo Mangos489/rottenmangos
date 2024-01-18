@@ -1,0 +1,62 @@
+.lowered{
+    margin-bottom: -2.5%;
+}
+
+
+
+#contact-form {
+    width: 100%;
+    
+    label {
+        font-family: 'blackchancery';
+        font-size: 40px;
+        display: block;
+        margin-top: 4%;
+        text-align: left;
+        margin-left: 12.5%;
+        color: #ffffff;
+    }
+    input{
+        width: 75%;
+        height: auto;
+        background-color: #ffffff47;
+        color: #ffffff;
+        font-size: 20px;
+        border:rgb(0, 0, 0);
+    }
+    textarea{
+        margin-top: 1%;
+        width: 75%;
+        height: auto;
+        background-color: #ffffff47;
+        color: #ffffff;
+        font-size: 20px;
+    }
+
+    .error {
+        color: #ffffff;
+        font-style: italic;
+        font-family: "blackchancery";
+        margin-top: 2.5%;
+        font-size: 19px;
+    }
+}
+.labelone{
+    margin-left: 3%;
+}
+.buttonone{
+    margin-top: 2%;
+    background-color: #ffffff00;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff40;
+    font-family: 'blackchancery';
+    font-size: 25px;
+}
+.meh{
+    text-align: center;
+    font-family: 'blackchancery';
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 25%;
+}

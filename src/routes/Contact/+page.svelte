@@ -1,10 +1,9 @@
-<script>
-    import '$lib/styling/contact.css'
+<script lang="ts">
     import one from '$lib/webimages/contact/img1.png'
     import two from '$lib/webimages/contact/img2.png'
+    import '$lib/styling/contact.css'
+    import Form from '$lib/components/contact/form.svelte'
 </script>
-<main>
-
     <body>
     <div class="t">
         <div class="title">
@@ -20,48 +19,28 @@
         </div>
 
     </div>
+    
+    <div class="banner">
+        <img class="b" src="{two}" alt="background2">
+    </div>
 
     <div class="alpha">
-
         <div class="aform">
             <div class="forms">
-                <form
-				id="contact-form"
-				name="contact"
-				method="post"
-				data-netlify="true"
-				data-netlify-honeypot="bot-field"
-			>                <p>
-                      <label>Your Name: <input type="text" name="name" /></label>
-                    </p>
-                    <p>
-                      <label>Your Email: <input type="email" name="email" /></label>
-                    </p>
-                    <p>
-                      <label>Message: <textarea name="message"></textarea></label>
-                    </p>
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
-                  </form>
-                  
+                <Form></Form>
             </div>
         </div>
 
         <div class="formcolom">
-            <div class="colom1">
-                <img class="at" src="{one}" alt="background1">
-            </div>
-        
             <div class="colom2">
-                <p>Insert clientoutreachrottenmangos@gmail.com</p>
+                <p class="fonta">(Email)</p>
+                <p class="fontb">Clientoutreachrottenmangos@gmail.com</p>
             </div>
 
             <div class="colom3">
-                <img class="b" src="{two}" alt="background2">
+                <img class="at" src="{one}" alt="background1">
             </div>
 
         </div>
     </div>
-    </body>
-</main>
+</body>

@@ -17,6 +17,19 @@
         height: 0 auto;
         display: inline-block;
     }
+
+    .titlecontainer{
+        width: 100%;
+        height: auto;
+        margin-bottom: -25.5%;
+        margin-top: -6%;
+    }
+    
+    .titleone{
+        font-family: 'bestchristmas';
+        font-size: 60px;
+        text-align: center;
+    }    
     
     /* So for container one and two we will make it a flexbox
     for container three we will make a inline display centered center
@@ -92,7 +105,7 @@
         height: auto;
         border-radius: 10px 10px 10px 10px;
     }
-    .title{
+    .ytitle{
         font-family: 'bestchristmas';
         font-size: 32px;
         margin-bottom: -1%;

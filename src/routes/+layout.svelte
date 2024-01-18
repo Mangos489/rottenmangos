@@ -24,7 +24,7 @@
 				  <a class="anavlink" href="{base}/products">Products</a>
 				  <a class="anavlink" href="{base}/careers">Careers</a>
 			      <a class="anavlink" href="{base}/Archive">Archive</a>
-				  <a class="anavlink" href="{base}/contact">Contact</a>
+				  <a class="anavlink" href="{base}/Contact">Contact</a>
 			    <ul class="mobilemargin1">
 					<a class="anavlink" href="{base}/team">Team</a>
 				</ul>
