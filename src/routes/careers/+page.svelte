@@ -1,8 +1,8 @@
 <script>
 	import '$lib/styling/careers.css'
+	import '$lib/styling/mobile/careersmobile.css'
 	import List from '$lib/components/careers/list.svelte'
 	import Form from '$lib/components/careers/form.svelte'
-
 </script>
 <body>
 	<div class="zheader">
@@ -16,13 +16,15 @@
 	</div>
 
 	<div class="zalpha">
+		<div class="zformcolom">
+			<List></List>
+		</div>
 		<div class="zaform">
-			<div class="forms">
+			<div class="zforms">
 				<Form></Form>
 			</div>
 		</div>		
-		<div class="formcolom">
-			<List></List>
-		</div>
+
 	</div>
 </body>
+

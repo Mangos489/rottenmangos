@@ -11,8 +11,7 @@
       <div class="greycontainer">
         <div class="boxtxt">
           <p> Rotten Mangos is a Los Angeles marketing agency that seeks to promote 
-            and elevate local buisness by offering competitve yet affordable 
-            services that align with the interests of our clinetel.
+            and elevate local business by offering competitive yet affordable services that align with the interests of our clientele.
           </p>
           <p class="transparent">filler</p>
             <p class="title">(Our philosophy)</p>
@@ -26,11 +25,11 @@
           <p class="transparent">filler</p>
             <p class="title2"> (Competition) </p>
           <p>
-            Professional apperanceses are everything, from ensuring that missed
-            fees are payed to ensuring a smooth transaction of goods. Professional
-            apperances grant a buisness legitamacy, authority but most importantly
-            respect. A professional apperance adds weight to the pentalies placed
-            upon customers when fees are unmet thus ensuring businesses are made whole. 
+            Professional appearances are everything, from ensuring that missed fees
+            are paid to ensuring a smooth transaction of goods. Professional
+            appearances grant a business legitimacy, authority but most importantly
+            respect. A professional appearance adds weight to the penalties placed 
+            upon customers when fees are unmet thus ensuring businesses are made whole.
           </p>
         </div>
       </div>

@@ -93,12 +93,6 @@
                             </label>
                             <input type="email" name="email" bind:value={formData.email} placeholder="Where can we send a response?" />
                         </div>
-                        <div class="field">
-                            <label for="phone">
-                                Phone Number:
-                            </label>
-                            <input type="phone" name="phone" bind:value={formData.phone} placeholder="What number should we call?" />
-                        </div>
                     </div>
     
                     <div class="message-wrapper field">
