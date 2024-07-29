@@ -1,4 +1,4 @@
-Hey welcome to the code base for my website. 
+Hey welcome to the code base for a team website. 
 
 This is just something im making in my spare time to get familiar with base html, css and maybe typescript idk but mostly with web design.
 
